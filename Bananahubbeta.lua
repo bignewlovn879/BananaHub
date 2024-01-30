@@ -18,7 +18,7 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 --------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    Title = "BANANA HUB-BLOX FRUIT[BETA V2]",
+    Title = "Banana Hub-Blox Fruit[Beta]",
     SubTitle = "BY VU DUY HUB",
     TabWidth = 160,
     Size = UDim2.fromOffset(450, 300),

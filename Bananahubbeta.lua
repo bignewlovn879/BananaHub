@@ -4081,7 +4081,7 @@ end
     })
 
 
-    local ToggleHallow = Tabs.Main:AddToggle("ToggleHallow", {Title = "Auto Hallow Scythe [Fully]", Default = false })
+    local ToggleHallow = Tabs.Main:AddToggle("ToggleHallow", {Title = "Boss Fight Get the scythe[Sea3]", Default = false })
 
     ToggleHallow:OnChanged(function(Value)
         AutoHallowSycthe = Value

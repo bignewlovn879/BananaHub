@@ -9,7 +9,7 @@ spawn(function()
         task.wait()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red> Welcome To VŨ DUY HUB<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red> WELECOM TO VŨ DUY HUB<Color=/>"):Display()
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>SCRIPT BY NGUYỄN VŨ DUY<Color=/>"):Display()
 end)
 ----------------------------------------------------------------------------------------------------------------------------------------------
@@ -18,8 +18,8 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 --------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    Title = "Banana Hub-Blox Fruit[BetaV2]",
-    SubTitle = "By Vu Duy Hub",
+    Title = "BANANA HUB-BLOX FRUIT[BETA V2]",
+    SubTitle = "BY VU DUY HUB",
     TabWidth = 160,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely

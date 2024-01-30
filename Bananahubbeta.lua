@@ -3169,7 +3169,7 @@ Tabs.Main:AddParagraph({
     Content = "Bone & Cake Prince & "
 })
 
-local ToggleBone = Tabs.Main:AddToggle("ToggleBone", {Title = "Farm Bone", Default = false })
+local ToggleBone = Tabs.Main:AddToggle("ToggleBone", {Title = "Auto Farm Bone", Default = false })
 ToggleBone:OnChanged(function(Value)
     _G.AutoBone = Value
 end)
@@ -3240,7 +3240,7 @@ spawn(function()
 end)
 
 
-local ToggleCake = Tabs.Main:AddToggle("ToggleCake", {Title = "Auto Farm Cake Prince", Default = false })
+local ToggleCake = Tabs.Main:AddToggle("ToggleCake", {Title = "Auto Farm Katakuri", Default = false })
 ToggleCake:OnChanged(function(Value)
  _G.CakePrince = Value
 end)

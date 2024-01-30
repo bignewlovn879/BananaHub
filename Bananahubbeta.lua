@@ -2627,7 +2627,7 @@ local posZ = 0
 
     local DropdownMastery = Tabs.Main:AddDropdown("DropdownMastery", {
         Title = "Select Weapon",
-        Values = {"Level Parm","Near Mobs",},
+        Values = {"Level Farm","Mobs Farm",},
         Multi = false,
         Default = 1,
     })

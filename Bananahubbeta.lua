@@ -10,7 +10,7 @@ spawn(function()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
     require(game.ReplicatedStorage.Notification).new("<Color=Red> WELECOM TO VŨ DUY HUB<Color=/>"):Display()
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>SCRIPT BY NGUYỄN VŨ DUY<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>THÔNG BÁO : LƯU Ý FARM LEVEL TRE0 20 PHÚT HAY 30 PHÚT NHÉ KHÔNG RESET ACC<Color=/>"):Display()
 end)
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
@@ -18,7 +18,7 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 --------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    Title = "Banana Hub-Blox Fruit[Beta]",
+    Title = "Banana Hub-Blox Fruit[Beta]V3",
     SubTitle = "BY VU DUY HUB",
     TabWidth = 160,
     Size = UDim2.fromOffset(450, 300),
@@ -2404,7 +2404,7 @@ local posZ = 0
 
     local DropdownSelectWeapon = Tabs.Main:AddDropdown("DropdownSelectWeapon", {
         Title = "Farm Mode",
-        Values = {'Melee','Sword','Blox Fruit'},
+        Values = {'Melee','Sword','Fruit'},
         Multi = false,
         Default = 1,
     })
@@ -2431,9 +2431,9 @@ local posZ = 0
                             end
                         end
                     end
-                elseif ChooseWeapon == " Blox Fruit" then
+                elseif ChooseWeapon == " Fruit" then
                     for i ,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-                        if v.ToolTip == "Blox Fruit" then
+                        if v.ToolTip == "Fruit" then
                             if game.Players.LocalPlayer.Backpack:FindFirstChild(tostring(v.Name)) then
                                 SelectWeapon = v.Name
                             end

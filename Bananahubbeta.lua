@@ -10,7 +10,7 @@ spawn(function()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
     require(game.ReplicatedStorage.Notification).new("<Color=Red> WELECOM TO VŨ DUY HUB<Color=/>"):Display()
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>THÔNG BÁO : LƯU Ý FARM LEVEL TRE0 20 PHÚT HAY 30 PHÚT NHÉ KHÔNG RESET ACC<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>THÔNG BÁO :LƯU Ý FARM LEVEL TREO ÍT LẠI SẼ KHÔNG RESET ACC<Color=/>"):Display()
 end)
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
@@ -2519,7 +2519,7 @@ local posZ = 0
         game:GetService("ReplicatedStorage").Effect.Container.Respawn:Destroy()
     end
 
-    local ToggleMobAura = Tabs.Main:AddToggle("ToggleMobAura", {Title = "Auto Near Mob", Default = false })
+    local ToggleMobAura = Tabs.Main:AddToggle("ToggleMobAura", {Title = "Auto Farm Mob", Default = false })
     ToggleMobAura:OnChanged(function(Value)
         _G.AutoNear = Value
     end)

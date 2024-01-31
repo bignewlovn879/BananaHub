@@ -10,7 +10,7 @@ spawn(function()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
     require(game.ReplicatedStorage.Notification).new("<Color=Red> WELECOM TO VŨ DUY HUB<Color=/>"):Display()
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>THÔNG BÁO :LƯU Ý FARM LEVEL TREO ÍT LẠI SẼ KHÔNG RESET ACC<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>THÔNG BÁO:LƯU Ý FARM LEVEL TREO ÍT LẠI SẼ KHÔNG RESET LEVEL<Color=/>"):Display()
 end)
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()

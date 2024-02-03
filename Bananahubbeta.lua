@@ -2640,9 +2640,9 @@ local posZ = 0
         Content = "Auto Farm mastery left skill"
     })
 
-    local DropdownMastery = Tabs.Main:AddDropdown("DropdownMastery", {
-        Title = "Select Weapon",
-        Values = {"Level Farm","Mobs Farm",},
+local DropdownMastery = Tabs.Main:AddDropdown("DropdownMastery", {
+        Title = "Farm Mode",
+        Values = {"Level Parm","Mobs Farm",},
         Multi = false,
         Default = 1,
     })
@@ -2810,7 +2810,7 @@ local posZ = 0
           Click()
          
           end
-          until not AutoFarmMasGun or not MasteryType == 'Near Mobs' or not v.Parent or v.Humanoid.Health <= 0 or not TypeMastery == 'Near Mobs'
+          until not AutoFarmMasGun or not MasteryType == 'Mobs Farm' or not v.Parent or v.Humanoid.Health <= 0 or not TypeMastery == 'Near Mobs'
           UseSkillGun = false
           end
          

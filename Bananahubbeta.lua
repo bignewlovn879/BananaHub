@@ -182,5 +182,5 @@ local NotiFrame = Instance.new("Frame")
 		end
 		)
 	end 
-	DiscordLib:Notification("Thông Báo" , "Nhận Cày Thuê Bán Acc v4 Ae Nào Cần IB" , 6 ,16158296328 )
-	DiscordLib:Notification("Thông Báo" , "SCRIPT được tạo bởi phú khánh" , 6 ,16158296328 )
+	DiscordLib:Notification("Thông Báo" , "Nhận Cày Thuê Ae Nào Cần IB" , 6 ,16158296328 )
+	DiscordLib:Notification("Thông Báo" , "SCRIPT được tạo bởi Duy Hub Vn" , 6 ,16158296328 )
